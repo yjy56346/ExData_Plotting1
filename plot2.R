@@ -3,7 +3,8 @@
 # Due - 13 Sep 2015
 #
 
-# Reading data
+# Reading data - extracted the 2880 rows for 2007-2-1 => 2007-2-2
+#                and used it to speed up read time from 2M+ rows!
 
 x <- read.csv2("household_power_consumption.txt", 
                header = TRUE, 
